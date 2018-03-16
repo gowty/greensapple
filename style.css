@@ -409,6 +409,7 @@ img {
 	float: left;
 	width: 100%;
 	padding: 100px 0;
+	padding-top: 30px;
 }
 
 .mu-about-us-area {
@@ -1928,6 +1929,104 @@ RESERVATION SECTION
 }
 
 .carousel-inner .item > img {
-	-webkit-animation: zoom 20s;
-	animation: zoom 20s;
+	-webkit-animation: zoom 100s;
+	animation: zoom 18s;
+}
+
+/* logo */
+@media only screen and (max-width: 769px) {
+    .logo{
+			height:50px;
+		  width:80%;
+		}
+}
+
+@media only screen and (max-width: 769px) {
+	.carousel-inner .item > img {
+		height: 240px;
+	}
+}
+
+@media only screen and (max-width: 769px){
+.about {
+    padding-top: 32px!important;
+}
+}
+
+/* gallery */
+* {
+	box-sizing: border-box;
+}
+
+.zoom {
+	transition: transform .2s;
+	width: 200px;
+	height: 200px;
+	margin: 0 auto;
+}
+
+.zoom:hover {
+	-ms-transform: scale(1.5); /* IE 9 */
+	-webkit-transform: scale(1.5); /* Safari 3-8 */
+	transform: scale(1.5);
+}
+/* gallery end */
+
+/* sweet gallery */
+.image {
+	height: 75%;
+	width: 75%;
+	margin-top:8%
+}
+
+.imag:hover {
+  animation: shake 5s;
+  animation-iteration-count: infinite;
+}
+
+@media only screen and (max-width: 769px){
+.image {
+    margin-top:30%
+}
+}
+
+@keyframes shake {
+  0% { transform: translate(1px, 1px) rotate(0deg); }
+  10% { transform: translate(-1px, -2px) rotate(-1deg); }
+  20% { transform: translate(-3px, 0px) rotate(1deg); }
+  30% { transform: translate(3px, 2px) rotate(0deg); }
+  40% { transform: translate(1px, -1px) rotate(1deg); }
+  50% { transform: translate(-1px, 2px) rotate(-1deg); }
+  60% { transform: translate(-3px, 1px) rotate(0deg); }
+  70% { transform: translate(3px, 1px) rotate(-1deg); }
+  80% { transform: translate(-1px, -1px) rotate(1deg); }
+  90% { transform: translate(1px, 2px) rotate(0deg); }
+  100% { transform: translate(1px, -2px) rotate(-1deg); }
+}
+
+.thumbnail {
+    box-shadow: 0px 0px 7px 0px;
+}
+
+/* juice gallery */
+.juice {
+	height: 50%;
+	width: 60%;
+	margin-top:8%
+}
+
+@media only screen and (max-width: 769px){
+.juice {
+    margin-top:30%;
+		margin-bottom: 50%;
+		height: 50%;
+		width: 70%;
+}
+}
+
+@media only screen and (max-width: 769px){
+	.juice1 {
+		margin-top: 30%
+	}
+
 }
