@@ -461,8 +461,8 @@ img {
 }
 
 .mu-title .mu-subtitle {
-	font-size: 50px;
-	font-family: 'Tangerine', cursive;
+	font-size: 40px;
+font-family: 'PT Serif', serif;
 	line-height: 30px;
 }
 
@@ -2028,5 +2028,10 @@ RESERVATION SECTION
 	.juice1 {
 		margin-top: 30%
 	}
+}
 
+@media only screen and (max-width: 769px){
+	.juicefooter {
+		margin-top: -30%
+	}
 }
