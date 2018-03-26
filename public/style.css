@@ -1929,7 +1929,7 @@ RESERVATION SECTION
 }
 
 .carousel-inner .item > img {
-	-webkit-animation: zoom 100s;
+	-webkit-animation: zoom 200s;
 	animation: zoom 18s;
 }
 
@@ -2033,5 +2033,22 @@ RESERVATION SECTION
 @media only screen and (max-width: 769px){
 	.juicefooter {
 		margin-top: -30%
+	}
+}
+
+
+.aboutimg {
+	height:200px;
+	width:200px;
+  border-radius: 5%;
+}
+
+
+@media only screen and (max-width: 769px){
+	.aboutimg {
+		/* width: 100%;
+		height: auto; */
+		margin-left: 20%;
+		margin-right: 20%
 	}
 }
