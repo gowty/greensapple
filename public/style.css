@@ -1844,6 +1844,12 @@ RESERVATION SECTION
 		font-size: 18px;
 	}
 
+	@media only screen and (max-width: 769px){
+		 .footers{
+		    padding-top: 63px!important;
+		}
+	}
+
 	.mu-menu-item-nav li {
 		text-align: center;
 	}
@@ -1943,7 +1949,7 @@ RESERVATION SECTION
 
 @media only screen and (max-width: 769px) {
 	.carousel-inner .item > img {
-		height: 240px;
+		height: 300px!important;
 	}
 }
 
