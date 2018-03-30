@@ -1935,8 +1935,7 @@ RESERVATION SECTION
 }
 
 .carousel-inner .item > img {
-	-webkit-animation: zoom 200s;
-	animation: zoom 18s;
+
 }
 
 /* logo */
