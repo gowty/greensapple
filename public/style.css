@@ -2058,7 +2058,7 @@ RESERVATION SECTION
 	}
 }
 
-.service-btn > .button{
+.service-btn >a> .button{
 	background-color: white; /* Green */
 	 border: none;
 	 color: #000;
@@ -2074,7 +2074,7 @@ RESERVATION SECTION
 	 margin-left: 140px;
 }
 
-.service-btn > .button1:hover{
+.service-btn >a> .button1:hover{
 	background-color: #64a90b;
 color: black;
 }
@@ -2082,8 +2082,60 @@ color: black;
 .service-btn > h4 {
 	font-weight:600;
 	text-align:center;
+	color: #355808;
 }
 
 .service-btn > p {
 	text-align: right;
+}
+
+@media only screen and (max-width: 769px){
+	.service-btn > p {
+		text-align: center;
+	}
+	.service-btn >a> .button{
+		 margin-left: 30%;
+		  margin-right: 30%;
+	}
+	.servicepad{
+		margin-top: -70px;
+		margin-bottom: 20px;
+	}
+}
+
+
+.services{
+	margin-top: 7%;
+	margin-bottom: 4%;
+}
+
+.servicesimg{
+	-webkit-filter: grayscale(50%); /* Safari 6.0 - 9.0 */
+	filter: grayscale(50%);
+}
+
+.servicesbtn > a{
+	    border-radius: 0px;
+			margin-top: 7px;
+			border-top: none;
+      border-left: none;
+      border-right: none;
+			font-weight: bold;
+			font-size: 17px;
+			text-align: left;
+			-webkit-transition: padding-left 1s; /* For Safari 3.1 to 6.0 */
+	transition: padding-left 1s;
+	col-md-12;
+}
+
+.servicesbtn > a:hover{
+			padding-left: 20px;
+			background-color:  #64a90b;
+			color:#fff;
+}
+
+.serviceh{
+	font-size: 22px;
+	font-weight: 700;
+	color: #64a90b!important;
 }
