@@ -1985,8 +1985,16 @@ RESERVATION SECTION
 }
 
 .imag:hover {
-  animation: shake 5s;
-  animation-iteration-count: infinite;
+  /* animation: shake 5s;
+  animation-iteration-count: infinite; */
+	/* width: 500px;
+	height: 500px; */
+	 /* transform: scale(1.5);  */
+	 transform: scale(1.5);
+ -moz-transform: scale(1.1);
+ -ms-transform: scale(1.1);
+ -webkit-transform: scale(1.1);
+ z-index: 1
 }
 
 @media only screen and (max-width: 769px){
