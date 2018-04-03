@@ -2147,3 +2147,9 @@ color: black;
 	font-weight: 700;
 	color: #64a90b!important;
 }
+
+@media only screen and (max-width: 769px){
+	.fontsizeservices{
+		font-size: 15px;
+	}
+}
