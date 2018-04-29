@@ -1,8 +1,8 @@
 
 var express = require("express");
 var app = express();
-// var port = 4000;
-var port = process.env.PORT || 4000;
+var port = 4000;
+// var port = process.env.PORT || 4000;
 
 app.use(express.static("public"));
 
@@ -42,6 +42,17 @@ app.get("/photography-videography", function(req, res) {
   res.sendfile(__dirname + "/photography&videography.html");
 });
 
+app.get("/platinum", function(req, res) {
+  res.sendfile(__dirname + "/platinum.html");
+});
+
+app.get("/gold", function(req, res) {
+  res.sendfile(__dirname + "/gold.html");
+});
+
+app.get("/silver", function(req, res) {
+  res.sendfile(__dirname + "/silver.html");
+});
 
 app.listen(port, function() {
   console.log("server started at "+port);
